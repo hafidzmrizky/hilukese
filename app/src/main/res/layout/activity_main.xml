@@ -4,15 +4,77 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MENCARI LUAS DAN KELILING SEGITIGA"
+        android:textAlignment="center"
+        android:layout_marginTop="50dp"
+        android:textColor="#FF0000"
+        android:textSize="30dp"
+        />
+
+    <Button
+        android:id="@+id/Bluas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LUAS"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:id="@+id/Bkeliling"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="KELILING"
+        android:layout_marginTop="5dp"
+        />
+
+    <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="MENCAR LUAS DAN "
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:hint="Masukkan Tinggi"
+        android:layout_marginStart="50dp"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Sisi A"
+        android:layout_marginStart="50dp"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Sisi B"
+        android:layout_marginStart="50dp"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Sisi C"
+        android:layout_marginStart="50dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HITUNG"
+        android:layout_marginTop="5dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hasil"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        />
 
 </LinearLayout>
