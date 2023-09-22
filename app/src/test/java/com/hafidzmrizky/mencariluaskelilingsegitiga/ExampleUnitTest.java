@@ -1,4 +1,4 @@
-package com.hafidzmrizky.mencariluaskelilingsegitiga;
+package com.hafidzmrizky.MeLuKeSe;
 
 import org.junit.Test;
 
