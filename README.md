@@ -22,7 +22,7 @@ This Android Studio project allows you to calculate the perimeter (keliling) and
 4. Input the required values for the triangle's sides.
 5. Click the "Calculate" button to see the results for the perimeter and area.
 
-## License: 
+## License
 # MIT License - see the LICENSE file for details.
 
 ## Contributing
