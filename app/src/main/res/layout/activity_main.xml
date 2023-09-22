@@ -34,6 +34,7 @@
         />
 
     <EditText
+        android:id="@+id/tinggi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="Masukkan Tinggi"
@@ -41,6 +42,7 @@
         />
 
     <EditText
+        android:id="@+id/sisiA"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="Masukkan Sisi A"
@@ -48,6 +50,7 @@
         />
 
     <EditText
+        android:id="@+id/sisiB"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="Masukkan Sisi B"
@@ -55,6 +58,7 @@
         />
 
     <EditText
+        android:id="@+id/sisiC"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="Masukkan Sisi C"
@@ -62,6 +66,7 @@
         />
 
     <Button
+        android:id="@+id/Bhitung"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="HITUNG"
@@ -69,6 +74,7 @@
         />
 
     <TextView
+        android:id="@+id/Hasil"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Hasil"
