@@ -2,7 +2,7 @@
 
 ### Dark Mode
 
-![Dark Mode Screenshot](screenshots/dark_mode_screenshot.png)
+![Dark Mode Screenshot](screenshots/darkModeCalculator.jpeg)
 
 ### Light Mode
 
