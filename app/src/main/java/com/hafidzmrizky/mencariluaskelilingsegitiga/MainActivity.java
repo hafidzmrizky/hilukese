@@ -51,5 +51,19 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        BtnLuas.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                ETsisiA.setText("");
+                ETsisiB.setText("");
+                ETsisiC.setText("");
+                TVhasil.setText("");
+                ETtinggi.setVisibility(view.VISIBLE);
+                ETsisiA.setVisibility(view.VISIBLE);
+                ETsisiB.setVisibility(view.GONE);
+                ETsisiC.setVisibility(view.GONE);
+            }
+        });
+
     }
 }
