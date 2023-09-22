@@ -23,10 +23,15 @@ This Android Studio project allows you to calculate the perimeter (keliling) and
 5. Click the "Calculate" button to see the results for the perimeter and area.
 
 ## License
-# MIT License - see the LICENSE file for details.
+MIT License - see the LICENSE file for details.
 
 ## Contributing
 If you want to contribute to this project or report any issues, please open an issue or create a pull request on the GitHub repository: github.com/hafidzmrizky/hilukese.
 
+# Contributors 
+- Hafidz Muhammad Rizky
+- Ginting Kimi Endri
+- Muhammad Khalifi Nawwaffarel Indratno 
+
 ## Acknowledgments
-- Thanks to [Your Name] for the inspiration and guidance on this project.
+- Thanks to [Mr. Santosa Wijayanto] for inspiration and guidance.
