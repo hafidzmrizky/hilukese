@@ -36,17 +36,23 @@ public class MainActivity extends AppCompatActivity {
                 int a, b, c, d;
                 double hitung;
 
-                if (ETtinggi.getText().toString().isEmpty()){
+                if (!ETtinggi.getText().toString().isEmpty()){
                     a = Integer.parseInt(ETsisiA.getText().toString());
                     d = Integer.parseInt(ETtinggi.getText().toString());
                     hitung = 0.5 * a * d;
                     TVhasil.setText(hitung+"");
                 }else {
-                    a = Integer.parseInt(ETsisiA.getText().toString());
-                    b = Integer.parseInt(ETsisiB.getText().toString());
-                    c = Integer.parseInt(ETsisiC.getText().toString());
-                    hitung = a + b + c;
-                    TVhasil.setText(hitung+"");
+                    try {
+                        if (!ETsisiA.getText().toString().isEmpty() || ETsisiB.getText().toString().isEmpty() || ETsisiC.getText().toString().isEmpty()) {
+                            a = Integer.parseInt(ETsisiA.getText().toString());
+                            b = Integer.parseInt(ETsisiB.getText().toString());
+                            c = Integer.parseInt(ETsisiC.getText().toString());
+                            hitung = a + b + c;
+                            TVhasil.setText(hitung + "");
+                        }
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
                 }
             }
         });
@@ -62,6 +68,19 @@ public class MainActivity extends AppCompatActivity {
                 ETsisiA.setVisibility(view.VISIBLE);
                 ETsisiB.setVisibility(view.GONE);
                 ETsisiC.setVisibility(view.GONE);
+            }
+        });
+
+        BtnKeliling.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                ETsisiA.setText("");
+                ETtinggi.setText("");
+                TVhasil.setText("");
+                ETtinggi.setVisibility(view.GONE);
+                ETsisiA.setVisibility(view.VISIBLE);
+                ETsisiB.setVisibility(view.VISIBLE);
+                ETsisiC.setVisibility(view.VISIBLE);
             }
         });
 
