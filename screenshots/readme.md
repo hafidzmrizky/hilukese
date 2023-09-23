@@ -6,7 +6,7 @@
 
 ### Light Mode
 
-![Light Mode Screenshot](screenshots/lightModeCalculator.jpeg)
+![Light Mode Screenshot](lightModeCalculator.jpeg)
 
 Screenshots were taken on a Realme 8 Pro with the following specifications:
 - Device: Poco M3 Pro 5G
