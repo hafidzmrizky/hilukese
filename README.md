@@ -8,8 +8,8 @@ This Android Studio project allows you to calculate the perimeter (keliling) and
 
 ## Screenshots
 
-![Screenshot 1](screenshots/darkModeCalculator.jpeg)
-![Screenshot 2](screenshots/screenshot2.png)
+![Screenshot 1](screenshots/darkModeCalculatorPoco.jpeg)
+![Screenshot 2](screenshots/lightModeCalculator.png)
 
 ## Usage
 
