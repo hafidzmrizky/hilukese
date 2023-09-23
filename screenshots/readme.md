@@ -2,15 +2,15 @@
 
 ### Dark Mode
 
-![Dark Mode Screenshot](darkModeCalculator.jpeg)
+![Dark Mode Screenshot](darkModeCalculatorPoco.jpeg)
 
 ### Light Mode
 
-![Light Mode Screenshot](screenshots/light_mode_screenshot.png)
+![Light Mode Screenshot](screenshots/lightModeCalculator.jpeg)
 
 Screenshots were taken on a Realme 8 Pro with the following specifications:
-- Device: Realme 8 Pro
-- Processor: Snapdragon 720G
-- RAM: 8GB
+- Device: Poco M3 Pro 5G
+- Processor: Dimensity 700 
+- RAM: 6GB
 - Storage: 128GB
 - Modes: Dark Mode & Light Mode
